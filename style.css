@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #575757;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;  
+    margin-top: 100px;
+}
+#top-banner-img img{
+    width: 100%;
+}
+#top-banner-img{
+    width: 50%;
+    margin-top: 80px;
+    padding-right: 10%;
+}
+#mid-banner-img img{
+    width: 100%;
+}
+#mid-banner-img{
+    width: 50%;
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.orange-color{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    color:white;
+    background-image: linear-gradient(orange,tomato);
+}
+.half-width-v2{
+    width: 50%;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+.mid-banner{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.mid-banner-heading{
+    font-size: 50px;
+    padding-top: 10%;
+}
+.recipes{
+    margin-bottom: 100px;
+}
+.recipe-text{
+    text-align: center;
+}
+.recipes h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.recipes .half-width img{
+    width: 100%;
+}
+.recipe-item{
+    margin-top: 0;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 30px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 60px;
+    background-color: white;
+}
+.stats{
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px gray;
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 100px;
+}
+.trio-width{
+    width: 33%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+.stats-text{
+    color: #18191F;
+}
+.stats h1{
+    padding-bottom:10px;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #18191F;
+}
+.footer h1{
+    font-size: 40px;
+}
+.footer p{
+    font-size: 20px;
+    color: white;
+}
